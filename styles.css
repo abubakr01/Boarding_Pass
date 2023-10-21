@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    place-content:  center;
+    background-image: url('images/background.jpg');
+    background-size:  1280px;
+    background-position-y:center;
+    background-size: cover;
+    
+    
+}
+hr{
+    margin-top: 40px;
+    width: 20px;
+    border: solid rgb(169, 169, 255) 2px;
+}
+h1{
+color: rgb(91, 91, 245);
+font-weight: 900;
+font-size: 2.7em;
+font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+small{
+  font-family:sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: rgb(190, 188, 188)
+}
+h6{
+  font-family:sans-serif;
+  font-size: 0.7em;
+  font-weight: 900;
+    margin: 0 5px 0 0;
+    color: rgb(190, 188, 188)
+}
+p{
+  font-family:sans-serif;
+    font-weight: 600;
+}
+img{
+width: 145px
+}
+.ticket{
+    background-color: #fff;
+    padding: 10px;
+}
+.heading{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.AMS{
+  text-align: right;
+}
+.🧍{
+  margin: 0
+}
+
+.details{
+    margin: 20px 0 0 25px;
+    display: grid;
+    grid-template-columns: 120px 100px 120px;
+  text-align: left;
+    
+}
+.details p {
+  margin: 5px 0;
+}
+.info_with_QR{
+  margin-top: 20px;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info_with_QR p{
+margin-top: 10px;
+}
